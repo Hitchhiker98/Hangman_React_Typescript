@@ -30,7 +30,7 @@ const KEYS = [
 ];
 
 type KeyboardProps = {
-  disabled?: boolean
+  disabled?: boolean;
   activeLetters: string[];
   inactiveLetters: string[];
   addGuessedLetter: (letter: string) => void;
